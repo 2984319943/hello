@@ -1,7 +1,7 @@
 package com.malaysia.core.Interceptor;
 
 import com.malaysia.core.Contants;
-import com.malaysia.core.web.RequestforWordUtils;
+import com.malaysia.web.RequestforWordUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
@@ -10,7 +10,6 @@ import org.springframework.web.servlet.i18n.CookieLocaleResolver;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;
-import java.util.HashMap;
 import java.util.Locale;
 
 /**
